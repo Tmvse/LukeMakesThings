@@ -6,7 +6,7 @@
 </head>
 
 <html>
-    <body>
-        <img src="lol.png.jpeg" width="580px" height="420px">
-    </body>
+<body>
+    <img src="lol.png.jpeg" width="580px" height="420px">
+</body>
 <html>
