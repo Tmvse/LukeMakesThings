@@ -4,24 +4,32 @@
 <meta charset="utf-8">
 <title> My First Website</title>
 </head>
-  
-<html>
-<select onchange="la(this.value)">
-    <option disabled selected>where to</option>
-    
-    <option value="screenshots.html">Screenshots</option>
-    
-    <option value="download.html">Download</option>
-</select>
-    
-<script>
-function la(src)
-(
-window.location=src;
-)
-</script>
 </html>
 
+<html>
+  <body>
+    <form name="Screenshots">
+      <select name="Screenshots" id="Screenshots">
+        <option value="#" disabled selected>Screenshots</option>
+        <option value="screenshots.html">Screenshots</option>
+        <option value="download.html">Download</option>
+        <select>
+    </form>
+        <script>
+          var urlMenu = document.getElementById('screenshots');
+          urlMenu.onchange = function()
+          {
+              var useroption = this.option[this.selectedIndex];
+              if(useroption.value != "nothing")
+              {
+                window.open(useroption.value,"Screenshots, Download","")
+              }
+          }
+      </script>
+</body>
+</html>
+                      
+<html>
 <body>
     <h1>
         Project Phantasy
