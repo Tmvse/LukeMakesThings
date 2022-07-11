@@ -4,21 +4,25 @@
 <meta charset="utf-8">
 <title> My First Website</title>
 </head>
-    
+  
 <html>
-    <body>
-        <form action="screenshots.html">
-        <form action="download.html">
-            <label for="cars">Go somewhere:</label>
-                <select name="cars" id="cars">
-                    <option value="Screenshots">Screenshots (preview)</option>
-                    <option value="Download">Download (unavailable)</option>
-                        </select>
-                    <br><br>
-                <input type="submit" value="Submit">
-            </form>
-        <p>Click the "Submit" button to go to the selected page".</p>
-    </body>
+<select onchange="la(this.value)">
+    <option disabled selected>where to</option>
+    
+    <option value="screenshots.html">Screenshots</option>
+    
+    <option value="download.html">Download</option>
+    
+</select>
+    
+<script>
+    
+function la(src)
+(
+    window.location=src;
+)
+
+</script>
 </html>
 
 <body>
