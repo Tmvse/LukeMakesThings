@@ -8,9 +8,8 @@ body
 {
     background-image: url(hacker.png);
     background-image: center;
-    background-size: cover;
     overflow-x: hidden;
-    position: relative;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .menu-bar
