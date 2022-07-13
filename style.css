@@ -6,9 +6,11 @@
 }
 body
 {
-    background-image: url(hacker.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(hacker.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .menu-bar
 {
